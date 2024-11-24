@@ -25,3 +25,24 @@ let stringNumber = String(someNumber);
 
 console.log(stringNumber)
 console.log(typeof(stringNumber));
+
+
+let str1 = "hello"
+let str2 = " yash"
+let str3 = str1+str2
+
+console.log(str3);
+
+console.log("1" +2); //12
+console.log(1+"2"); //12
+console.log("1"+2+2); //122
+console.log(1+2+"2");//32 
+
+console.log(3 + 4 / 2 * 5 % 3 ) //4
+//divide , Multiply , Modulo ,add
+console.log(+true)
+console.log(true)
+
+let gameCounter = 100;
+gameCounter++;
+console.log(gameCounter);
